@@ -1,0 +1,5 @@
+n = int(input())
+nums = list(map(int, input().split()))
+set_nums = list(set(nums))
+set_nums.sort()
+for i in set_nums:print(i,end = ' ')
